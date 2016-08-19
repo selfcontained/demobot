@@ -1,14 +1,10 @@
 {
   "name": "demobot",
   "version": "1.0.0",
-  "description": "A sample Beep Boop Node.js Slackbot",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "description": "scriptable slack bot for demos",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/beepboophq/node-slack-bot.git"
+    "url": "git+https://github.com/selfcontained/demobot.git"
   },
   "keywords": [
     "slackbot",
@@ -18,13 +14,14 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/beepboophq/node-slack-bot/issues"
+    "url": "https://github.com/selfcontained/demobot/issues"
   },
-  "homepage": "https://github.com/beepboophq/node-slack-bot#readme",
+  "homepage": "https://github.com/selfcontained/demobot#readme",
   "dependencies": {
-    "botkit": "0.2.2",
-    "beepboop-botkit": "1.4.1",
-    "morgan": "1.7.0",
-    "botkit-storage-firebase": "1.0.0"
+    "express": "^4.14.0",
+    "firebase": "^3.3.0",
+    "slapp": "^1.0.5",
+    "slapp-context-beepboop": "^1.0.0",
+    "slapp-convo-beepboop": "^1.0.0"
   }
 }
