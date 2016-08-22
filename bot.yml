@@ -6,8 +6,10 @@ slackscopes:
   - commands
 config:
  - name: FIREBASE_CREDENTIALS
+   global: true
    type: secret
    friendly_name: Firebase Credentials
    info: Base64 encoded service account key (json)
  - name: FIREBASE_DATABASE_URL
+   global: true
    friendly_name: Firebase DB URL
