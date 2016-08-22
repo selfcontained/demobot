@@ -4,17 +4,10 @@ avatar: resources/magic-01.jpg
 slackscopes:
   - bot
   - commands
-#background: resources/background.png
-#config:
-#  - name: OPTION
-#    friendly_name: Some Unnecessary Option
-#    info: This is an unnecessary option
-#    default: the default value
-#  - name: SECRET
-#    friendly_name: Shhhh
-#    info: This is an secret option
-#    type: secret
-#    default: not secret though
-#screenshots:
-# - screenshot: resources/screen1.png
-#  - screenshot: resources/screenshot2.jpg
+config:
+ - name: FIREBASE_CREDENTIALS
+   type: secret
+   friendly_name: Firebase Credentials
+   info: Base64 encoded service account key (json)
+ - name: FIREBASE_DATABASE_URL
+   friendly_name: Firebase DB URL
