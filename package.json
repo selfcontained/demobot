@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/selfcontained/demobot#readme",
   "dependencies": {
-    "beepboop-slapp-presence-polyfill": "^1.1.0",
+    "beepboop-slapp-presence-polyfill": "^1.1.1",
     "express": "^4.14.0",
     "firebase": "^3.3.0",
     "slapp": "^1.1.1",
