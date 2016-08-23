@@ -11,6 +11,10 @@ var slapp = Slapp({
   convo_store: BBConvo()
 })
 
+// ensures non-rtm bot is `online` when running on Beep Boop
+// requires that Multi-Team Socket Mode is enabled on the project
+require('beepboop-slapp-presence-polyfill')(slapp, { debug: true })
+
 var data = require('./lib/data')({})
 
 require('./lib/commands')(slapp, data)
